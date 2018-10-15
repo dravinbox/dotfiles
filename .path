@@ -42,3 +42,6 @@ export PATH="${PATH}:${HOME}/depot_tools"
 if [ -f "${HOME}/depot_tools/git_cl_completion.sh" ]; then source "${HOME}/depot_tools/git_cl_completion.sh"; fi
 # QT
 export PATH="${HOME}/Qt/5.11.1/clang_64/bin/:${PATH}"
+
+# Maven
+export PATH="${MAVEN_HOME}/bin:${PATH}"

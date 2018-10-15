@@ -39,3 +39,6 @@ if [[ -n "$SSH_CLIENT" ]] || [[ -n "$SSH_TTY" ]]; then
 	GPG_TTY=$(tty)
 	export GPG_TTY
 fi
+
+# 添加maven 
+export MAVEN_HOME=/Users/zhangrongyan/soft/apache-maven-3.3.9
